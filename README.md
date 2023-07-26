@@ -1,4 +1,4 @@
-# Hyperswitch React + Node Integration
+# Hyperswitch React + PHP Integration
 
 Build a simple checkout web-app to collect payment details and make a dummy payment. Included are some basic build and run scripts you can use to run the demo application.
 
@@ -8,7 +8,7 @@ This demo application uses the following tech-stack :
 
 **Frontend :** `React` with `JavaScript`
 
-**Backend :** `Node`  
+**Backend :** `PHP`  
 
 ## Prerequisites
 
@@ -28,20 +28,18 @@ Don't have a Hyperswitch account? [Sign up here!](https://app.hyperswitch.io/reg
 npm install
 ~~~
 
-4. Run the server :
+3. Run the server :
 
 ~~~
-php -S 127.0.0.1:4242 --docroot=src
+npm run start-server
 ~~~
 
-3. Run the client :
+Runs the backend server in the development mode.
+
+4. Run the client :
 
 ~~~
 npm run start-client
 ~~~
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Now, you can navigate to [http://localhost:3000](http://localhost:3000) to access the checkout page in your browser.
